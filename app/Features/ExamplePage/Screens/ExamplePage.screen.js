@@ -33,19 +33,18 @@ const ExampleScreen = () => (
         <Header />
         {global.HermesInternal === null ? null : (
           <View style={styles.engine}>
-            <Text style={styles.footer}>Engine: Hermes</Text>
+            <Text style={styles.footer}>{lang('Engine') + ': Hermes'}</Text>
           </View>
         )}
         <View style={styles.body}>
           <View style={styles.sectionContainer}>
-            <Text style={styles.sectionTitle}>Step One</Text>
+            <Text style={styles.sectionTitle}>{lang('StepOne')}</Text>
             <Text style={styles.sectionDescription}>
-              Edit
+              {lang('Edit')}
               {' '}
               <Text style={styles.highlight}>App.js</Text>
               {' '}
-              to change this
-              screen and then come back to see your edits.
+              {lang('StepOneContent')}
             </Text>
           </View>
           <View style={styles.sectionContainer}>

@@ -1,4 +1,4 @@
-package com.wishtera;
+package id.teramuza.wishapp;
 
 import com.facebook.react.ReactActivity;
 

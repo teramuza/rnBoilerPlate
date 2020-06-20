@@ -12,8 +12,7 @@ import {
   StyleSheet,
   ScrollView,
   View,
-  Text,
-  StatusBar
+  Text
 } from 'react-native';
 
 import {
@@ -23,11 +22,9 @@ import {
   DebugInstructions,
   ReloadInstructions
 } from 'react-native/Libraries/NewAppScreen';
-import type { ReactNode } from 'react-native/Libraries/Renderer/shims/ReactTypes';
 
-const App: () => ReactNode = () => (
+const ExampleScreen = () => (
   <>
-    <StatusBar barStyle="dark-content" />
     <SafeAreaView>
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
@@ -115,4 +112,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default App;
+export default ExampleScreen;

@@ -22,6 +22,7 @@ import {
   DebugInstructions,
   ReloadInstructions
 } from 'react-native/Libraries/NewAppScreen';
+import { APP_INFO, CONFIG } from '../../../Constants/Statics';
 
 const ExampleScreen = () => (
   <>
@@ -33,7 +34,8 @@ const ExampleScreen = () => (
         <Header />
         {global.HermesInternal === null ? null : (
           <View style={styles.engine}>
-            <Text style={styles.footer}>{lang('Engine') + ': Hermes'}</Text>
+            <Text style={styles.footer}>{`Version: ${APP_INFO.VERSION} (${APP_INFO.BUILD_NUMBER})`}</Text>
+            <Text style={styles.footer}>{`Environment Used: ${CONFIG.BUILD_TYPE}`}</Text>
           </View>
         )}
         <View style={styles.body}>
@@ -78,7 +80,8 @@ const styles = StyleSheet.create({
   },
   engine: {
     position: 'absolute',
-    right: 0
+    right: 0,
+    marginTop: 5
   },
   body: {
     backgroundColor: Colors.white
@@ -105,7 +108,7 @@ const styles = StyleSheet.create({
     color: Colors.dark,
     fontSize: 12,
     fontWeight: '600',
-    padding: 4,
+    padding: 0,
     paddingRight: 12,
     textAlign: 'right'
   }

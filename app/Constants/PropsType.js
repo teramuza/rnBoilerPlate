@@ -10,3 +10,8 @@ export type ActionDefaultProp = {
   payload: Object,
   errorMessage: String
 };
+
+export type PhotoPayloadProp = {
+  photo_key: String,
+  photo: Object
+};

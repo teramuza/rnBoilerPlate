@@ -132,5 +132,9 @@ module.exports = {
       }
     }
   },
-  "extends": ["airbnb", "eslint:recommended"]
+  "extends": [
+    "airbnb",
+    "eslint:recommended",
+    "plugin:flowtype/recommended"
+  ]
 };

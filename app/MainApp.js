@@ -13,7 +13,6 @@ import { Provider as PaperProvider } from 'react-native-paper';
 import { Provider as StoreProvider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import 'react-native-gesture-handler';
-import type { ReactNode } from 'react-native/Libraries/Renderer/shims/ReactTypes';
 import { I18nextProvider } from 'react-i18next';
 import { AppStatusBar } from './Components';
 import { getPersistor, getStore } from './Redux/Store';
@@ -26,7 +25,7 @@ const persistor = getPersistor();
 
 const COLOR_THEME = Colors.APP_THEME.MAIN_COLOR;
 
-const MainApp: () => ReactNode = () => (
+const MainApp: () => React$Node = () => (
   <I18nextProvider i18n={I18n}>
     <SafeAreaView style={{ flex: 0, backgroundColor: COLOR_THEME }} />
     <SafeAreaView style={{ flex: 1, backgroundColor: COLOR_THEME }}>

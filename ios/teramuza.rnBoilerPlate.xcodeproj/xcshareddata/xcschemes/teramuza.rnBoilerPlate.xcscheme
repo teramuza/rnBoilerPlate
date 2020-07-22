@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "WishTera-tvOS.app"
-               BlueprintName = "WishTera-tvOS"
-               ReferencedContainer = "container:WishTera.xcodeproj">
+               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+               BuildableName = "teramuza.rnBoilerPlate.app"
+               BlueprintName = "teramuza.rnBoilerPlate"
+               ReferencedContainer = "container:teramuza.rnBoilerPlate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "WishTera-tvOSTests.xctest"
-               BlueprintName = "WishTera-tvOSTests"
-               ReferencedContainer = "container:WishTera.xcodeproj">
+               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
+               BuildableName = "teramuza.rnBoilerPlateTests.xctest"
+               BlueprintName = "teramuza.rnBoilerPlateTests"
+               ReferencedContainer = "container:teramuza.rnBoilerPlate.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -54,10 +54,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "WishTera-tvOS.app"
-            BlueprintName = "WishTera-tvOS"
-            ReferencedContainer = "container:WishTera.xcodeproj">
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+            BuildableName = "teramuza.rnBoilerPlate.app"
+            BlueprintName = "teramuza.rnBoilerPlate"
+            ReferencedContainer = "container:teramuza.rnBoilerPlate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -71,10 +71,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "WishTera-tvOS.app"
-            BlueprintName = "WishTera-tvOS"
-            ReferencedContainer = "container:WishTera.xcodeproj">
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+            BuildableName = "teramuza.rnBoilerPlate.app"
+            BlueprintName = "teramuza.rnBoilerPlate"
+            ReferencedContainer = "container:teramuza.rnBoilerPlate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
